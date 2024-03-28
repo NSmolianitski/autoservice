@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Autoservice
+    
+  datasource:
+    url: jdbc:postgresql://localhost:5432/AutoserviceDB
+    username: admin
+    password: password
+  
+  
