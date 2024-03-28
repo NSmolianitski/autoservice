@@ -1,0 +1,10 @@
+services:
+  AutoserviceDB:
+    image: postgres
+    environment:
+      POSTGRES_DB: AutoserviceDB
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+    
+    ports:
+      - "5432:5432"
